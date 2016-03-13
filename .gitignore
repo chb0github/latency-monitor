@@ -28,6 +28,7 @@ hs_err_pid*
 
 # Sensitive or high-churn files:
 # .idea/dataSources.ids
+/target
 # .idea/dataSources.xml
 # .idea/sqlDataSources.xml
 # .idea/dynamic.xml
@@ -52,8 +53,6 @@ hs_err_pid*
 # mpeltonen/sbt-idea plugin
 .idea_modules/
 
-# JIRA plugin
-atlassian-ide-plugin.xml
 
 # Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
